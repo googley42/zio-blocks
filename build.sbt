@@ -94,7 +94,7 @@ lazy val schema = crossProject(JSPlatform, JVMPlatform, NativePlatform)
         Seq()
       case _ =>
         Seq(
-          "io.github.kitlangton" %%% "neotype" % "0.3.37" % Test
+          "io.github.kitlangton" %%% "neotype" % "0.4.4" % Test
         )
     })
   )
@@ -107,7 +107,7 @@ lazy val schema = crossProject(JSPlatform, JVMPlatform, NativePlatform)
         Seq()
       case _ =>
         Seq(
-          "io.github.kitlangton" %%% "neotype" % "0.3.37" % Test
+          "io.github.kitlangton" %%% "neotype" % "0.4.4" % Test
         )
     })
   )
