@@ -887,7 +887,7 @@ lazy val zioGolemCore = crossProject(JSPlatform, JVMPlatform)
   .settings(stdSettings("zio-golem-core"))
   .settings(
     libraryDependencies ++= Seq(
-      "org.scalatest" %%% "scalatest" % "3.2.19" % Test
+      "org.scalatest" %%% "scalatest" % "3.2.20" % Test
     )
   )
   .settings(
@@ -944,7 +944,7 @@ lazy val zioGolemTools = project
     fork := true,
     libraryDependencies ++= Seq(
       "com.lihaoyi"   %% "ujson"                 % "3.1.0",
-      "org.scalatest" %% "scalatest"             % "3.2.19" % Test,
+      "org.scalatest" %% "scalatest"             % "3.2.20" % Test,
       "dev.zio"       %% "zio-schema"            % "1.8.3"  % Test,
       "dev.zio"       %% "zio-schema-derivation" % "1.8.3"  % Test
     )
