@@ -785,7 +785,7 @@ lazy val `schema-csv` = crossProject(JSPlatform, JVMPlatform)
 
 lazy val scalaNextTests = crossProject(JSPlatform, JVMPlatform)
   .crossType(CrossType.Pure)
-  .settings(stdSettings("zio-blocks-scala-next-tests", Seq("3.7.4")))
+  .settings(stdSettings("zio-blocks-scala-next-tests", Seq("3.8.1")))
   .dependsOn(schema % "compile->compile;test->test")
   .settings(crossProjectSettings)
   .settings(
