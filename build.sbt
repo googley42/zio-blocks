@@ -871,7 +871,7 @@ lazy val zioGolemModel = crossProject(JSPlatform, JVMPlatform)
   .jvmSettings(
     libraryDependencies ++= Seq(
       "com.lihaoyi" %% "ujson"                 % "3.1.0",
-      "dev.zio"     %% "zio-schema-derivation" % "1.8.3" % Test
+      "dev.zio"     %% "zio-schema-derivation" % "1.8.5" % Test
     )
   )
   .jsSettings(jsSettings)
@@ -942,7 +942,7 @@ lazy val zioGolemMacros = project
       "dev.zio"     %% "zio-test"              % "2.1.25" % Test,
       "dev.zio"     %% "zio-test-sbt"          % "2.1.25" % Test,
       "com.lihaoyi" %% "ujson"                 % "3.1.0"  % Test,
-      "dev.zio"     %% "zio-schema-derivation" % "1.8.3"  % Test
+      "dev.zio"     %% "zio-schema-derivation" % "1.8.5"  % Test
     )
   )
   .dependsOn(zioGolemModel.jvm)
